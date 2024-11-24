@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dobav</class>
+ <widget class="QDialog" name="dobav">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>471</width>
+    <height>303</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>471</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Магазины</string>
+    </attribute>
+    <widget class="QLineEdit" name="lineIDmagaz">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>70</y>
+       <width>113</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>102</x>
+       <y>70</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ID магазина:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEmail">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>110</y>
+       <width>113</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>110</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Email:</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkDostavka">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>180</y>
+       <width>181</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Бесплатная доставка</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushMagazDob">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>230</y>
+       <width>221</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Добавить запись</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Товары</string>
+    </attribute>
+    <widget class="QLineEdit" name="lineIDtovar">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>30</y>
+       <width>113</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ID товара:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Название:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineNazvanie">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>70</y>
+       <width>113</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineFirma">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>110</y>
+       <width>113</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>110</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Фирма:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>150</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string> Модель:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineModel">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>150</y>
+       <width>113</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineTX">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>190</y>
+       <width>341</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Тех. хар-ки:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>70</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Стоимость:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>110</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Гар. срок:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineCost">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>70</y>
+       <width>113</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineGarSrok">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>110</y>
+       <width>113</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushTovarDob">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>230</y>
+       <width>221</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Добавить запись</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Заказы</string>
+    </attribute>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ID заказа:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineIDzakaza">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>111</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>140</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ID магазина:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="BoxIDmagaz">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>140</y>
+       <width>111</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>180</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>  ID товара:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="BoxIDtovar">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>180</y>
+       <width>111</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Дата заказа:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineDataZak">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>60</y>
+       <width>111</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_27">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Время заказа:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineTimeZak">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>100</y>
+       <width>111</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_28">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>30</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ФИО клиента:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineFIOkl">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>60</y>
+       <width>151</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_29">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>100</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Телефон:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineTel">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>130</y>
+       <width>151</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkOplata">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>180</y>
+       <width>131</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Заказ оплачен</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushZakazDob">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>230</y>
+       <width>221</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Добавить запись</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Доставки</string>
+    </attribute>
+    <widget class="QLineEdit" name="lineIDdost">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>40</y>
+       <width>113</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_30">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ID доставки:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_31">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>80</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>  ID заказа:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="BoxIDzakaz">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>80</y>
+       <width>111</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineDataDost">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>120</y>
+       <width>113</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_32">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>120</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Дата доставки:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_33">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>121</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Время доставки:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineTimeDost">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>160</y>
+       <width>113</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_34">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>50</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ФИО курьера:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineFIOkur">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>80</y>
+       <width>161</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineAdress">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>160</y>
+       <width>161</width>
+       <height>28</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_35">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>130</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Адрес:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushDostDob">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>230</y>
+       <width>221</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Добавить запись</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

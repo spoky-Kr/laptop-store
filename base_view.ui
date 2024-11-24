@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>base_view</class>
+ <widget class="QDialog" name="base_view">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1107</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>1061</width>
+     <height>481</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>520</y>
+     <width>151</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="sort_pick">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>520</y>
+     <width>151</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sortButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>520</y>
+     <width>151</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сортировать по</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dobavButton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>520</y>
+     <width>151</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Добавить запись</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="udalButton_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>560</y>
+     <width>151</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Удалить запись</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="izmenButton_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>600</y>
+     <width>151</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Изменить запись</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="vigruzka">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>520</y>
+     <width>151</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выгрузка в файл</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="vivod">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>600</y>
+     <width>151</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Вывод на печать</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="zagruzka">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>560</y>
+     <width>151</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Загрузка из файла</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
